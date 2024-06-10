@@ -15,18 +15,23 @@ function MainApp() {
       <section className="MainLayout">
         <Routes>
           <Route path="/" element={<Navbar />} />
+          <Route path="/emeraldcilebut" element={<Navbar />} />
         </Routes>
         <Routes>
           <Route path="/" element={<Header />} />
+          <Route path="/emeraldcilebut" element={<Header />} />
         </Routes>
         <Routes>
           <Route path="/" element={<ContentPages />} />
+          <Route path="/emeraldcilebut" element={<ContentPages />} />
         </Routes>
         <Routes>
           <Route path="/" element={<FloatingActionButton />} />
+          <Route path="/emeraldcilebut" element={<FloatingActionButton />} />
         </Routes>
         <Routes>
           <Route path="/" element={<Footer />} />
+          <Route path="/emeraldcilebut" element={<Footer />} />
         </Routes>
       </section>
     </main>
