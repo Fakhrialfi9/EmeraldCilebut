@@ -1,0 +1,51 @@
+export const Pagination = [
+  {
+    id: 1,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 2,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 3,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 4,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 5,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 6,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+  {
+    id: 7,
+    BadgesBrand: "Next Js",
+    ProductPrice: "Rp. 1.200.000",
+    ProductName: "HiksVision",
+    ProductDescription: "Description of Product 1 goes here. You can provide details about the product in this section.",
+  },
+];

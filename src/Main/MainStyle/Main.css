@@ -1,0 +1,313 @@
+.MainLayout {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.DiverContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 0.1px;
+  max-height: 0.1px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--DarkLightColor);
+}
+
+.EmeraldCilebutHeadline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+
+  padding: 0;
+  margin: 0 auto;
+}
+
+.EmeraldCilebutHeadline h2 {
+  font-size: 1.85rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin-bottom: 0.4rem !important;
+}
+
+.EmeraldCilebutHeadline a {
+  margin: 0 0.5rem;
+  color: var(--GrayColor);
+}
+
+.EmeraldCilebutHeadline a:hover {
+  color: var(--PrimaryColor);
+}
+
+.EmeraldCilebutHeadline b {
+  text-decoration: underline;
+  text-decoration-color: var(--GrayColor);
+  text-decoration-thickness: 0.05rem;
+  text-underline-position: under;
+  text-underline-offset: 4px;
+}
+
+.EmeraldCilebutHeadline p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: var(--GrayColor);
+  margin-bottom: 0.4rem !important;
+}
+
+/* Custom CSS for Swiper Navigation */
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: var(--LightColor) !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  padding: 0.35rem 0.35rem !important;
+  border-radius: 10rem !important;
+  opacity: 0.5 !important;
+  transition: all 0.5s ease-in-out;
+  font-weight: 700 !important;
+}
+
+.swiper-button-next {
+  color: var(--PrimaryColor) !important;
+}
+
+.swiper-button-prev {
+  color: var(--PrimaryColor) !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-variant: initial !important;
+  line-height: 1 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1 !important;
+  background-color: var(--LightColor) !important;
+  color: var(--PrimaryColor) !important;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+/* Custom CSS for Swiper Navigation */
+
+/* Start Copy To Clipboard */
+
+.CopyToClipBoarContent {
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--LightColor) !important;
+  border-radius: 0.85rem;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  z-index: 999999 !important;
+}
+
+.CopyToClipBoarContent {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  max-width: 15rem;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0.25rem 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.SuccessCopyToClipBoar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SuccessCopyToClipBoar h5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9rem !important;
+  font-weight: 500;
+  color: var(--SuccessColor);
+  margin: 0 1rem !important;
+}
+
+.SuccessCopyToClipBoar a {
+  margin: 0 0.5rem;
+  color: var(--DangerColor);
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.SuccessCopyToClipBoar a:hover {
+  color: var(--PrimaryColor) !important;
+}
+
+.CopyToClipboardHeadline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CopyToClipboardHeadline h5 {
+  font-size: 0.9rem !important;
+  font-weight: 500;
+  color: var(--GrayDarkColor);
+  margin: 0 1rem !important;
+}
+
+.IconClipBoard {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.IconClipBoard:hover {
+  transform: scale(1.15);
+}
+
+.IconClipBoard:active {
+  transform: scale(0.85);
+}
+/* Start Copy To Clipboard */
+
+/* Start Pagination */
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1.25rem;
+  user-select: none !important;
+}
+
+.PaginationItem {
+  margin: 0 4px;
+  transition: all 0.25s ease-in-out;
+  border-radius: 0.5rem !important;
+}
+
+.PaginationItem.disabled {
+  opacity: 0.1;
+  transition: all 0.25s ease-in-out;
+  cursor: not-allowed;
+}
+
+.PaginationItem.disabled:hover {
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+.PaginationItem.active {
+  background-color: var(--PrimaryColor) !important;
+  cursor: pointer;
+}
+
+.PaginationItem.active:hover {
+  background-color: var(--SecondaryColor) !important;
+  cursor: pointer;
+}
+
+.PaginationLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: var(--GrayDarkColor);
+  border: 1px solid var(--DarkLightColor);
+  border-radius: 0.5rem !important;
+  transition: all 0.5s;
+  transition: all 0.25s ease-in-out;
+}
+
+.PaginationLink.disabled:hover {
+  background-color: transparent;
+  cursor: not-allowed;
+  color: var(--DarkLightColor);
+}
+
+.PaginationLink.active {
+  color: var(--LightColor) !important;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.PaginationLink:hover {
+  color: var(--LightColor);
+  background-color: var(--PrimaryColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+/* End Pagination */
+
+/* Start Animation */
+@keyframes slideRightToLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.SliderAnimation {
+  animation: slideRightToLeft 0.25s ease-in-out;
+}
+
+/* End Animation */

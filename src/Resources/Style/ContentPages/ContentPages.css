@@ -1,0 +1,1651 @@
+.HomeSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.MainHome {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.MainHomeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainHomeContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Start About Emerald Cilebut */
+.AboutEmeraldCilebut {
+  top: 50%;
+  transform: translateY(-10%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 10;
+}
+
+.AboutEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 95.6%;
+  max-width: 95.6%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 1.8rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1rem;
+  border: 1px solid var(--DarkLightColor);
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+.CardAboutEmeraldCilebutContentTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentTopLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftImage {
+  display: flex;
+  flex-direction: column;
+  width: 8.5rem;
+  max-width: 8.5rem;
+  height: 8.5rem;
+  max-height: 8.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: var(--DarkLightColor);
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: 8.5rem;
+  max-height: 8.5rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  margin: 0 0 0 1.5rem;
+  padding: 0 !important;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--DarkColor);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContentButton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent button {
+  background-color: transparent;
+  color: var(--DarkColor);
+  border: 1px solid var(--DarkLightColor);
+  margin-right: 1rem;
+  padding: 0.5rem 0.7rem;
+  transition: all 0.5 ease-in-out;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent button:hover {
+  background-color: var(--PrimaryColor) !important;
+  color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  transform: scale(1.05);
+  transition: all 0.5 ease-in-out;
+}
+
+.CardAboutEmeraldCilebutContentTopLeftContent button:active {
+  transition: all 0.5 ease-in-out;
+  transform: scale(0.9);
+}
+
+.CardAboutEmeraldCilebutContentTopRight {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 50%;
+  height: 8rem;
+  max-height: 8rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonLeft {
+  background-color: var(--PrimaryColor) !important;
+  color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  margin: 0 0 0 1rem;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonLeft:hover {
+  background-color: var(--SecondaryColor) !important;
+  color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  margin: 0 0 0 1rem;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonLeft span {
+  margin: 0 0 0 0.5rem;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonRight {
+  background-color: transparent;
+  color: var(--DarkColor);
+  border: 1px solid var(--PrimaryColor);
+  margin: 0 0 0 1rem;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonRight:hover {
+  background-color: var(--SecondaryColor) !important;
+  color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  margin: 0 0 0 1rem;
+}
+
+.CardAboutEmeraldCilebutContentTopRightButtonRight span {
+  margin: 0 0 0 0.5rem;
+}
+
+.CardAboutEmeraldCilebutContentCenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  padding: 0;
+  margin: 1.5rem auto;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgb(248, 248, 248);
+  transition: all 0.5s ease-in-out;
+}
+
+.CardAboutEmeraldCilebutContentCenter:hover {
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+.CardAboutEmeraldCilebutContentCenterDiver {
+  display: flex;
+  flex-direction: row;
+  width: 0.05rem;
+  max-width: 0.05rem;
+  height: 5rem;
+  max-height: 5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--DarkLightColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: 6.5rem;
+  max-height: 6.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentCenter1 h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter1 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: 6.5rem;
+  max-height: 6.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentCenter2 h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter2 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: 6.5rem;
+  max-height: 6.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentCenter3 h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter3 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: 6.5rem;
+  max-height: 6.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.CardAboutEmeraldCilebutContentCenter4 h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.CardAboutEmeraldCilebutContentCenter4 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardAboutEmeraldCilebutContentBottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  padding: 0;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.CardAboutEmeraldCilebutContentBottomHeadline h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--GrayColor);
+}
+
+.CardAboutEmeraldCilebutContentBottomHeadline p {
+  font-size: 0.89rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin-top: 1rem;
+}
+
+/* End About Emerald Cilebut */
+
+/* Start Type Cluster Emerald Cilebut */
+.TypeClusterEmeraldCilebut {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.TypeClusterEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.TypeClusterEmeraldCilebutContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.TypeClusterEmeraldCilebutContentCenter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.TypeClusterEmeraldCilebutContentCenter button {
+  margin: 0 1rem 0 0;
+  background-color: var(--PrimaryColor) !important;
+  color: var(--LightColor);
+  border: 1px solid var(--LightColor);
+}
+
+.TypeClusterEmeraldCilebutContentCenter button:hover {
+  background-color: var(--SecondaryColor) !important;
+}
+
+.TypeClusterEmeraldCilebutContentCenterActive.active button {
+  color: var(--PrimaryColor) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--PrimaryColor) !important;
+}
+
+.TypeClusterEmeraldCilebutContentCenterActive.active button:hover {
+  color: var(--LightColor) !important;
+  background-color: var(--SecondaryColor) !important;
+}
+
+.TypeClusterEmeraldCilebutContentBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0 auto;
+  padding: 0;
+}
+
+.TypeClusterEmeraldCilebutContentBottomActive {
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.45, 0.5, 0.55, 0.95);
+}
+
+.TypeClusterEmeraldCilebutContentBottomActive.active {
+  transform: translateX(0);
+  transition: transform 0.5s cubic-bezier(0.45, 0.5, 0.55, 0.95);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 26.5rem;
+  max-width: 26.5rem;
+  height: 26.5rem;
+  max-height: 26.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 0.5rem 0 0;
+  padding: 0;
+  border-radius: 1rem;
+  background-color: rgb(248, 248, 248);
+  transition: all 0.5s ease-in-out;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomLeft img {
+  display: flex;
+  flex-direction: row;
+  width: 26.5rem;
+  max-width: 26.5rem;
+  height: 26.5rem;
+  max-height: 26.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 1rem;
+  user-select: none !important;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRight {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 56rem;
+  max-width: 56rem;
+  height: 26.5rem;
+  max-height: 26.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 0 0.5rem;
+  padding: 0;
+  border-radius: 1rem;
+  border: 0.5px solid var(--DarkLightColor);
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRight:hover {
+  box-shadow: none;
+  border: 0.5px solid var(--LightColor);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonAction {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  z-index: 9999;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionTop {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.25rem;
+  padding: 0;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionTop span {
+  margin: 0 0.5rem;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionTop a {
+  background-color: transparent;
+  font-size: 1rem;
+  color: var(--PrimaryColor);
+  margin: 0 0.2rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionTop a:hover {
+  color: red;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionTop b {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--PrimaryColor);
+  margin: 0 0.2rem;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionCenter {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.25rem 0;
+  padding: 0;
+  user-select: none;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionCenter button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  background-color: var(--PrimaryColor);
+  font-weight: 500;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightButtonActionCenter button:hover {
+  background-color: var(--SecondaryColor);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 95%;
+  height: 85%;
+  max-height: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentHeadline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 0.85rem 0;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentHeadline h5 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: var(--GrayColor);
+  margin-bottom: 0.3rem !important;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentHeadline h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--GrayColor);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecification {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0.85rem auto;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecification h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--GrayColor);
+  margin-bottom: 0.4rem !important;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecification h5 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: var(--GrayColor);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecificationCard {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.85rem;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecificationCard p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  text-align: left;
+  margin: 0 1rem !important;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecificationCard b {
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  padding: 0.1rem 0.5rem;
+  border-radius: 10rem;
+  color: var(--LightColor);
+  background-color: var(--PrimaryColor);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecificationCardContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 2.5rem;
+  max-width: 2.5rem;
+  height: 2.5rem;
+  max-height: 2.5rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 0.5px solid var(--DarkLightColor);
+  color: var(--GrayDarkColor);
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: rgb(248, 248, 248);
+  transition: all 0.2s ease-in-out;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentSpecificationCardContent:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentRoomsArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 0.85rem;
+  padding: 0;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentRoomsArea h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--GrayColor);
+  margin-bottom: 0.4rem !important;
+}
+
+.CardTypeClusterEmeraldCilebutContentBottomRightContentRoomsArea h5 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: var(--GrayColor);
+}
+
+/* End Type Cluster Emerald Cilebut */
+
+/* Start Facilities Cluster Emerald Cilebut */
+.FacilitiesEmeraldCilebut {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 1.8rem 0;
+  border-radius: 1rem;
+  background-color: var(--PrimaryColor);
+}
+
+.FacilitiesEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.FacilitiesEmeraldCilebutContentTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.FacilitiesEmeraldCilebutContentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+}
+
+.FacilitiesEmeraldCilebutContentLeftHeadline {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+}
+
+.FacilitiesEmeraldCilebutContentLeftHeadline h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--LightColor);
+  margin: 1rem 0 !important;
+}
+
+.FacilitiesEmeraldCilebutContentLeftHeadline p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--LightColor);
+  margin: 1rem 0 !important;
+}
+
+.FacilitiesEmeraldCilebutContentRight {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+}
+
+.FacilitiesEmeraldCilebutContentRightContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+}
+
+.FacilitiesEmeraldCilebutContentRightCardContent {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  max-width: 20rem;
+  height: 15rem;
+  max-height: 15rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+  border-radius: 1rem;
+  background-color: var(--SecondaryColor);
+}
+
+.FacilitiesEmeraldCilebutContentRightCardContent img {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 1rem;
+  user-select: none !important;
+}
+
+/* End Facilities Cluster Emerald Cilebut */
+
+/* End More Facilities Cluster Emerald Cilebut */
+
+.MoreFacilitiesEmeraldCilebut {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MoreFacilitiesEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MoreFacilitiesEmeraldCilebutContent {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  max-width: 20rem;
+  height: 5rem;
+  max-height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0;
+  border-radius: 1rem;
+  border: 0.85px solid var(--PrimaryColor);
+  transition: all 0.25s ease-in-out;
+}
+
+.MoreFacilitiesEmeraldCilebutContent:hover {
+  transform: scale(1.025);
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+}
+
+.MoreFacilitiesEmeraldCilebutContentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  max-height: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  padding: 0;
+  border-radius: 1rem;
+  background-color: #f4f4f4;
+}
+
+.MoreFacilitiesEmeraldCilebutContentRight {
+  display: flex;
+  flex-direction: row;
+  width: 13rem;
+  max-width: 13rem;
+  height: 4rem;
+  max-height: 4rem;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.MoreFacilitiesEmeraldCilebutContentRight p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--DarkColor);
+}
+
+.MoreFacilitiesEmeraldCilebutContentRight h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--DarkColor);
+}
+/* End More Facilities Cluster Emerald Cilebut */
+
+/* Start Progress Cluster Emerald Cilebut */
+.ProgressEmeraldCilebut {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.ProgressEmeraldCilebutContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProgressEmeraldCilebutContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25rem;
+  max-width: 25rem;
+  height: auto;
+  max-height: auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  place-content: center;
+  place-items: center;
+  text-align: left;
+  margin: 2rem 0;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.ProgressEmeraldCilebutContent:hover {
+  transform: scale(1.02);
+}
+
+.ProgressEmeraldCilebutContentTopThumbnail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 15rem;
+  max-height: 15rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  border-radius: 1rem;
+  background-color: var(--DarkLightColor);
+}
+
+.ProgressEmeraldCilebutContentCenterHeadline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 1.5rem 0;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ProgressEmeraldCilebutContentCenterHeadline h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--DarkColor);
+  margin-bottom: 0.4rem !important;
+}
+
+.ProgressEmeraldCilebutContentCenterHeadline p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin-bottom: 0.4rem !important;
+}
+
+.ProgressEmeraldCilebutContentCenterContentCreator {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.ProgressEmeraldCilebutContentCenterCardContentCreator {
+  display: flex;
+  flex-direction: column;
+  width: 2.25rem;
+  max-width: 2.25rem;
+  height: 2.25rem;
+  max-height: 2.25rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 10rem;
+  background-color: var(--DarkLightColor);
+}
+
+.ProgressEmeraldCilebutContentCenterHeadlineContentCreator {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+}
+
+.ProgressEmeraldCilebutContentCenterHeadlineContentCreator h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+.ProgressEmeraldCilebutContentBottomAction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ProgressEmeraldCilebutContentBottomAction a {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+}
+.ProgressEmeraldCilebutContentBottomAction button {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+}
+
+/* End Progress Cluster Emerald Cilebut */
+
+/* Start Maps Location Emerald Cilebut */
+.MapsLocationEmeraldCilebut {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 1.5rem 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.MapsLocationEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.MapsLocationEmeraldCilebutContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.CardMapsLocationEmeraldCilebutContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 35rem;
+  max-height: 35rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  border-radius: 1rem;
+  background-color: var(--PrimaryColor);
+}
+
+.CardMapsLocationEmeraldCilebutContentInside {
+  position: absolute;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  max-width: 30rem;
+  height: 31rem;
+  max-height: 31rem;
+  margin: auto 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  transition: all 0.5s ease-in-out;
+}
+
+.CardMapsLocationEmeraldCilebutContentInside:hover {
+  transform: scale(1.025);
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 90%;
+  height: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideLeft {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  max-width: 15%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideLeftCard {
+  display: flex;
+  flex-direction: column;
+  width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  max-height: 3rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: var(--DarkLightColor);
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideRight {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  max-width: 85%;
+  height: 3rem;
+  max-height: 3rem;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideRight h5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideRight h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--DarkColor);
+}
+
+.CardMapsLocationEmeraldCilebutContentInsideRight a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--DarkColor);
+}
+
+/* End Maps Location Emerald Cilebut */
+
+/* Start Get EBrochure Emerald Cilebut */
+.GetEBrochureEmeraldCilebut {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.GetEBrochureEmeraldCilebutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+}
+
+.GetEBrochureEmeraldCilebutContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardGetEBrochureEmeraldCilebutContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 18rem;
+  max-width: 18rem;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.CardGetEBrochureEmeraldCilebutContent:hover {
+  transform: scale(1.025);
+  cursor: pointer;
+}
+
+.CardGetEBrochureEmeraldCilebutContentTop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: 15rem;
+  max-height: 15rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 1rem;
+  background-color: var(--PrimaryColor);
+}
+
+.CardGetEBrochureEmeraldCilebutContentTop img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.CardGetEBrochureEmeraldCilebutContentCenter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.CardGetEBrochureEmeraldCilebutContentCenter h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--DarkColor);
+}
+
+.CardGetEBrochureEmeraldCilebutContentCenter p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: var(--DarkColor);
+  margin-top: 0.5rem !important;
+}
+
+.CardGetEBrochureEmeraldCilebutContentBottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.CardGetEBrochureEmeraldCilebutContentBottom a {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.CardGetEBrochureEmeraldCilebutContentBottom button {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+/* End Get EBrochure Emerald Cilebut */

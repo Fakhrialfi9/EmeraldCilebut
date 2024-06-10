@@ -1,0 +1,265 @@
+.FloatingActionButtonSection {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  max-height: 4rem;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+}
+
+.MainFloatingActionButton {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 10rem;
+  background-color: var(--PrimaryColor);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+
+.MainFloatingActionButton:hover {
+  transform: scale(1.1);
+}
+
+.MainFloatingActionButton:active {
+  transform: scale(0.85);
+}
+
+.FloatingActionButtonContent a {
+  font-size: 2.5rem !important;
+  color: var(--LightColor) !important;
+}
+
+/* Start Card Form Chat Whats Apps */
+
+.CardFormChatWhatsApp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: auto 0;
+  padding: 0;
+  z-index: -1;
+}
+
+.CardFormChatWhatsApp.active {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: auto 0;
+  padding: 0;
+  z-index: 999;
+}
+
+.CardFormChatWhatsAppContainer {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 95%;
+  height: 95%;
+  max-height: 95%;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: auto 0;
+  padding: 0;
+}
+
+.CardFormChatWhatsAppContent {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  max-width: 40%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  padding: 2.5rem 5rem;
+  background-color: var(--LightColor);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  transform: translateX(140%) translateY(125%) scale(0);
+  transition: all 0.25s ease-in-out !important;
+  z-index: 9999;
+}
+
+.CardFormChatWhatsAppContent.active {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  max-width: 40%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  padding: 2.5rem 5rem;
+  background-color: var(--LightColor);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  transform: translateX(0) translateY(0) scale(1);
+  transition: all 0.25s ease-in-out !important;
+  z-index: 9999;
+}
+
+.BlurBackgroundFloatingButtonAction {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  z-index: 0;
+  background-color: rgb(0, 0, 0, 0);
+  transform: translateX(-100%);
+  backdrop-filter: blur(0);
+  transition: backdrop-filter 0.3s cubic-bezier(0.77, 0, 0.18, 1), background-color 0.3s cubic-bezier(0.77, 0, 0.18, 1) !important;
+}
+
+.BlurBackgroundFloatingButtonAction.active {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  z-index: 99;
+  background-color: rgb(0, 0, 0, 0.5);
+  transform: translateX(0);
+  backdrop-filter: blur(1.5px);
+  transition: backdrop-filter 0.3s cubic-bezier(0.77, 0, 0.18, 1), background-color 0.3s cubic-bezier(0.77, 0, 0.18, 1) !important;
+}
+
+.CardFormChatWhatsAppContentHeadline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 0;
+}
+
+.CardFormChatWhatsAppContentHeadline h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.CardFormChatWhatsAppContentHeadline span {
+  margin: 0 0.5rem;
+}
+
+.CloseButton {
+  background-color: transparent;
+  color: var(--DangerColor);
+  margin: 0 0.5rem !important;
+  padding: 0.2rem 0.8rem !important;
+}
+
+.CloseButton:hover {
+  background-color: var(--DangerColor);
+  color: var(--LightColor);
+  border: 1px solid transparent !important;
+}
+
+.CardFormChatWhatsAppContentForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.FormButtonAction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem 0 !important;
+  padding: 0;
+}
+
+.SubmitButton {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  background-color: var(--PrimaryColor);
+  color: var(--LightColor);
+}
+
+.SubmitButton h5 {
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+}
+
+.SubmitButton span {
+  margin-right: 0.75rem !important;
+}
+
+/* End Card Form Chat Whats Apps */

@@ -1,0 +1,495 @@
+.NavbarSection {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.MainNavbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  border-bottom: 1px solid var(--DarkLightColor);
+  z-index: 9999;
+}
+
+.MainNavbarContainer {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 95%;
+  max-width: 95%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainNavbarContent {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavbarContentLeft {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 47.5%;
+  max-width: 47.5%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 2.5px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.NavbarContentLogo {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavbarContentRight {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 47.5%;
+  max-width: 47.5%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 2.5px 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NavbarContentSearch {
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  max-height: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  margin-right: 1rem;
+  padding: 0;
+  border: 0.75px solid var(--GrayDarkColor);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.NavbarContentDarkMode {
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  max-height: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  margin: 0 1rem;
+  padding: 0;
+  border: 0.75px solid var(--GrayDarkColor);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.NavbarContentLangue {
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  max-height: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  margin: 0 1rem;
+  padding: 0;
+  border: 0.75px solid var(--GrayDarkColor);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.NavbarContentSearch:hover,
+.NavbarContentDarkMode:hover,
+.NavbarContentLangue:hover {
+  transform: scale(1.1);
+  background-color: var(--GrayDarkColor);
+  color: var(--LightColor);
+}
+
+.NavbarContentSearch:active,
+.NavbarContentDarkMode:active,
+.NavbarContentLangue:active {
+  transform: scale(0.9);
+}
+
+.DiverNavbarContent {
+  display: flex;
+  flex-direction: row;
+  width: 0.1rem;
+  max-width: 0.1rem;
+  height: 2rem;
+  max-height: 2rem;
+  margin: 0 1rem;
+  padding: 0;
+  background-color: var(--DarkLightColor);
+}
+
+.NavbarContentHamburger {
+  display: flex;
+  flex-direction: column;
+  width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  max-height: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  margin-left: 1rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.NavbarContentHamburger-bar:nth-child(1) {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--GrayDarkColor);
+  transition: all 0.4s;
+  cursor: pointer;
+  border-radius: 10rem;
+}
+
+.NavbarContentHamburger-bar:nth-child(2) {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--GrayDarkColor);
+  transition: all 0.4s;
+  cursor: pointer;
+  border-radius: 10rem;
+}
+
+.NavbarContentHamburger-bar:nth-child(3) {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--GrayDarkColor);
+  transition: all 0.4s;
+  cursor: pointer;
+  border-radius: 10rem;
+}
+
+/* Start Slider Navbar */
+.NavbarContentSlider {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  max-width: 20%;
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.45, 0.5, 0.55, 0.95);
+  z-index: 99999;
+}
+
+.NavbarContentSlider.active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  max-width: 20%;
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--LightColor);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.11);
+  border-left: 0.5px solid var(--DarkLightColor);
+  transform: translateX(0);
+  transition: transform 0.3s cubic-bezier(0.45, 0.5, 0.55, 0.95);
+  z-index: 99999;
+}
+
+.BlurBackgroundSliderBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  background-color: rgb(0, 0, 0, 0);
+  transform: translateX(-100%);
+  backdrop-filter: blur(0) !important;
+  transition: backdrop-filter 0.3s cubic-bezier(0.77, 0, 0.18, 1), background-color 0.3s cubic-bezier(0.77, 0, 0.18, 1) !important;
+}
+
+.BlurBackgroundSliderBar.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  background-color: rgb(0, 0, 0, 0.5);
+  transform: translateX(0);
+  backdrop-filter: blur(1.5px) !important;
+  transition: backdrop-filter 0.3s cubic-bezier(0.77, 0, 0.18, 1), background-color 0.3s cubic-bezier(0.77, 0, 0.18, 1) !important;
+}
+
+.NavbarContentSliderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 90%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.NavbarContentSliderTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin-bottom: 1rem;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavbarContentSliderTopLeft {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  max-width: 10%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.NavbarContentSliderClose {
+  display: flex;
+  flex-direction: row;
+  width: 1.5rem;
+  max-width: 1.5rem;
+  height: 1.5rem;
+  max-height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0.75px solid var(--GrayDarkColor);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: var(--GrayDarkColor);
+  transition: all 0.4s;
+}
+
+.NavbarContentSliderClose:hover {
+  transform: scale(1.1);
+  background-color: var(--GrayDarkColor);
+  color: var(--LightColor);
+}
+
+.NavbarContentSliderClose:active {
+  transform: scale(0.9);
+}
+
+.NavbarContentSliderTopRight {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NavbarContentSliderTopRight h5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NavbarContentSliderCenter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin-bottom: 1rem;
+  padding: 10px 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NavbarContentSliderCenterMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NavbarContentSliderCenterItem {
+  margin: 0.7rem 0;
+}
+
+.NavbarContentSliderCenterLink {
+  position: relative;
+  display: flex;
+  font-family: "Metropolis-Regular";
+  color: var(--TaglineColor);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.9rem;
+  padding: 5px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
+}
+
+.NavbarContentSliderCenterLink::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--PrimaryColor);
+  height: 1px;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 0.25s;
+}
+
+.NavbarContentSliderCenterLink:hover {
+  color: var(--SecondaryColor);
+  transform: scale(1);
+}
+
+.NavbarContentSliderCenterLink:hover::before {
+  transform: scaleX(0.8);
+}
+
+.NavbarContentSliderCenterLink.active {
+  color: var(--PrimaryColor);
+  font-weight: 700;
+}
+
+.NavbarContentSliderBottom {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 90%;
+  border-radius: 10rem;
+  bottom: 1rem;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--PrimaryColor);
+}
+
+.NavbarContentSliderBottom a {
+  color: var(--LightColor);
+}
+
+/* End Slider Navbar */
